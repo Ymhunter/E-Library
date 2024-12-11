@@ -1,39 +1,32 @@
-Library Management System
-A simple console-based Library Management System that provides essential functionalities for managing a collection of books. This program allows users to add books, borrow books, return books, and view the entire library collection efficiently.
+# Library Management System
+A simple Library Management System developed to provide essential functionalities for managing books efficiently. The program handles adding books, borrowing and returning books, and viewing the complete library collection in a secure and interactive way.
 
-Features
-Add Book
+## Features
+### Book Management
 
-Input book title and author to add it to the library.
-Confirms successful addition of the book.
-Borrow Book
+Input and store book details (title and author).
+Display all books in the library along with their availability status.
+### Borrow Books
 
 Borrow a book by entering its title.
-Marks the book as unavailable once borrowed.
-Displays an appropriate message if the book is unavailable or not found.
-Return Book
+Mark the book as unavailable after borrowing.
+Notify the user if the book is unavailable or not found.
+### Return Books
 
-Return a borrowed book by entering its title.
-Marks the book as available once returned.
-Notifies if the book was not found in the library.
-View All Books
+Return a previously borrowed book by entering its title.
+Mark the book as available after returning.
+Notify the user if the book is not found in the library.
+### Interactive Console Menu
 
-Display all books in the library along with their authors and availability status.
-Highlights whether each book is available or not.
-Interactive Console Menu
-
-Provides an easy-to-navigate menu system for accessing all functionalities.
-Installation
+Easy-to-use menu for performing all operations:
+Add books.
+Borrow books.
+Return books.
+View the list of all books.
+# Installation
 Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/Ymhunter/E-Library.git
+git clone https://github.com/yourusername/LibraryManagementSystem.git
 cd LibraryManagementSystem
-How to Use
-Build and run the project in your preferred C# IDE (e.g., Visual Studio or Visual Studio Code).
-
-Potential Enhancements
-Add persistent storage (e.g., save to a file or database) to retain data between sessions.
-Implement a search feature for books.
-Introduce user roles and authentication for borrowing/returning books.
