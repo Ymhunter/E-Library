@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alans\\Documents\\GitHub\\E-Library\\Inheritance.csproj": {}
+    "C:\\Users\\alans\\Documents\\GitHub\\E-Library\\E-Library.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alans\\Documents\\GitHub\\E-Library\\Inheritance.csproj": {
+    "C:\\Users\\alans\\Documents\\GitHub\\E-Library\\E-Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alans\\Documents\\GitHub\\E-Library\\Inheritance.csproj",
-        "projectName": "Inheritance",
-        "projectPath": "C:\\Users\\alans\\Documents\\GitHub\\E-Library\\Inheritance.csproj",
+        "projectUniqueName": "C:\\Users\\alans\\Documents\\GitHub\\E-Library\\E-Library.csproj",
+        "projectName": "E-Library",
+        "projectPath": "C:\\Users\\alans\\Documents\\GitHub\\E-Library\\E-Library.csproj",
         "packagesPath": "C:\\Users\\alans\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\alans\\Documents\\GitHub\\E-Library\\obj\\",
         "projectStyle": "PackageReference",
@@ -42,6 +42,16 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
