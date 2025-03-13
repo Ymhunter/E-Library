@@ -1,32 +1,23 @@
-# Library Management System
-A simple Library Management System developed to provide essential functionalities for managing books efficiently. The program handles adding books, borrowing and returning books, and viewing the complete library collection in a secure and interactive way.
+# E-Library
 
-## Features
-### Book Management
+E-Library är en enkel men funktionell applikation designad för att hantera bibliotekets resurser. Systemet är uppdelat i två huvuddelar: en användargränssnitt och en administratörsgränssnitt. Projektet syftar till att erbjuda en plattform där användare kan söka efter, låna och återlämna böcker, medan administratörer kan hantera bibliotekets böcker effektivt.
 
-Input and store book details (title and author).
-Display all books in the library along with their availability status.
-### Borrow Books
+## Funktioner
 
-Borrow a book by entering its title.
-Mark the book as unavailable after borrowing.
-Notify the user if the book is unavailable or not found.
-### Return Books
+### Användarfunktioner:
+- **Sök efter böcker**: Användare kan söka efter böcker baserat på titel.
+- **Låna böcker**: Möjlighet att låna tillgängliga böcker.
+- **Återlämna böcker**: Funktion för att återlämna lånade böcker.
+  
+### Administratörsfunktioner:
+- **Lägg till böcker**: Administratörer kan lägga till nya böcker till bibliotekets databas.
+- **Ta bort böcker**: Ta bort böcker som inte längre finns i bibliotekets samling.
 
-Return a previously borrowed book by entering its title.
-Mark the book as available after returning.
-Notify the user if the book is not found in the library.
-### Interactive Console Menu
+## Teknologier och verktyg
+- **Programmeringsspråk**: C#
+- **Databas**: Azure Data Studio
 
-Easy-to-use menu for performing all operations:
-Add books.
-Borrow books.
-Return books.
-View the list of all books.
-# Installation
-Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/LibraryManagementSystem.git
-cd LibraryManagementSystem
+![Screenshot (42)](https://github.com/user-attachments/assets/d883e9ee-fb6d-44b2-ab38-41710f09331d)
+![Screenshot (43)](https://github.com/user-attachments/assets/747488be-b8ef-4fd4-b18a-93143019078a)
+![Screenshot (44)](https://github.com/user-attachments/assets/5dec3549-6622-411c-b1a8-a4b88250ce4e)
