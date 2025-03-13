@@ -1,15 +1,17 @@
 class Books
 {
 public string Title {get; set;}
-public string Auther {get; set;}
-public int ISBN {get; set;}
+public string Author {get; set;}
 public bool IsAvialable {get; set;}
 
-public Books(string title, string auther, int iSBN, bool isAvialable){
+public Books(string title, string author, int iSBN, bool isAvialable){
     Title = title;
-    Auther = auther;
-    ISBN = iSBN;
+    Author = author;
     IsAvialable = isAvialable;
     
 }
+
+    public Books()
+    {
+    }
 }
